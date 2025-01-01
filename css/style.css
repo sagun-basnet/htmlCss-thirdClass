@@ -1,0 +1,21 @@
+span {
+  /* background-color: aqua; */
+}
+h2 {
+  color: green;
+}
+.topH {
+  background-color: brown;
+}
+#yourH2 {
+  background-color: yellow;
+}
+p span {
+  /* background-color: blue; */
+}
+.myDiv div span h1 {
+  background-color: red;
+}
+.mainPara .para {
+  color: red;
+}
