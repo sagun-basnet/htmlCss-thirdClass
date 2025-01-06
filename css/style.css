@@ -23,8 +23,7 @@ p span {
   padding: 0;
   margin: 0;
 }
-
-.navbar {
+/* .navbar {
   height: 40px;
   border: 2px solid red;
 }
@@ -39,4 +38,17 @@ p {
   border: 2px solid black;
   padding-left: 80px;
   margin-top: 40px;
+} */
+body {
+  background-color: aqua;
+}
+input {
+  padding: 8px;
+  border-radius: 50%;
+}
+.circle {
+  border: 2px solid black;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
 }

@@ -7,20 +7,56 @@
     <title>Document</title>
   </head>
   <body>
-    <nav class="navbar">
-      <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Contact</li>
-        <li>Service</li>
-      </ul>
-      <button>login</button>
-    </nav>
-    <div class="container">Container</div>
-    <p>
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat est
-      doloremque rem repellendus autem eum perspiciatis explicabo, hic placeat
-      architecto?
-    </p>
+    <form>
+      <!-- <label for="">Enter Your Name </label> <br /> -->
+      <input type="text" name="fullName" id="" placeholder="Enter your name" />
+      <br />
+      <input type="number" name="" id="" placeholder="Enter phone number" />
+      <br />
+      <input type="email" name="" id="" placeholder="Enter email" />
+      <br />
+      <input type="password" name="" id="" placeholder="Enter password" />
+      <br />
+      <input type="date" name="" id="" />
+      <br />
+      <input type="file" />
+      <br />
+      Gender: <input type="radio" name="gender" id="" /> Male
+      <input type="radio" name="gender" id="" /> Female
+      <input type="radio" name="gender" id="" /> Others
+
+      <h1>Select your skill</h1>
+      <input type="checkbox" name="" id="" /> HTML
+      <input type="checkbox" name="" id="" /> CSS
+      <input type="checkbox" name="" id="" /> JS
+      <input type="checkbox" name="" id="" /> React
+      <input type="checkbox" name="" id="" /> Node
+      <input type="checkbox" name="" id="" /> Next
+      <input type="checkbox" name="" id="" /> Angular
+      <br />
+      <!-- <h1>Select Contry</h1> -->
+      <select name="country" id="">
+        <option value="">-- Select Contry --</option>
+        <option value="Nepal">Nepal</option>
+        <option value="India">India</option>
+        <option value="China">China</option>
+        <option value="">USA</option>
+        <option value="">Denmark</option>
+      </select>
+
+      <br />
+      <textarea
+        rows="10"
+        cols="30"
+        name=""
+        id=""
+        placeholder="Short introduction"
+      ></textarea>
+      <br />
+      <input type="reset" value="Reset" />
+      <input type="submit" value="Submit" />
+    </form>
+
+    <div class="circle"></div>
   </body>
 </html>
