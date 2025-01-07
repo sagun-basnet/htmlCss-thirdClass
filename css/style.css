@@ -40,7 +40,7 @@ p {
   margin-top: 40px;
 } */
 body {
-  background-color: aqua;
+  /* background-color: aqua; */
 }
 input {
   padding: 8px;
@@ -51,4 +51,15 @@ input {
   height: 40px;
   width: 40px;
   border-radius: 50%;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 2px solid black;
+  margin: 0;
+  padding: 10px;
 }
