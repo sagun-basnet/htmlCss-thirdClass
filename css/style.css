@@ -63,3 +63,13 @@ td {
   margin: 0;
   padding: 10px;
 }
+
+.imgDiv {
+  border: 2px solid black;
+  width: 50vw;
+  height: 50vh;
+  background-image: url("../image/background.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
