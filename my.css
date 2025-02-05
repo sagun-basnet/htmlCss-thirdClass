@@ -24,9 +24,10 @@
   width: var(--container-large);
 }
 .myDiv {
+  border: 2px solid black;
   width: 20rem;
   height: 30rem;
-  background: rgba(0, 0, 255, 0.441);
+  /* background: rgba(0, 0, 255, 0.441); */
   box-shadow: 25rem 20px 10px #ffffff;
   /* transform: rotate(-45deg); */
   transform: translateZ(100px);
