@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  background-color: goldenrod;
+}
+.content {
+  /* &::before { */
+  height: 100vh;
+  width: 100%;
+  /* background: transparent; */
+  /* -webkit-filter: blur(8px); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid red; */
+  /* background-color: red; */
+  /* } */
+  filter: blur(5px);
+}
+.myDiv {
+  /* border: 2px solid red; */
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  background: transparent;
+}
+.card {
+  /* position: relative;
+  z-index: 1; */
+  background-color: black;
+  width: 20rem;
+  height: 30rem;
+}
