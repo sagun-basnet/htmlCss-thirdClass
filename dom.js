@@ -28,12 +28,27 @@
 
 // clearTimeout(myTime);
 
-let count = 0;
-const myTime = setInterval(() => {
-  count++;
-  console.log(count);
-}, 1000);
+// let count = 0;
+// const myTime = setInterval(() => {
+//   count++;
+//   console.log(count);
+// }, 1000);
 
-setTimeout(() => {
-  clearInterval(myTime);
-}, 4000);
+// setTimeout(() => {
+//   clearInterval(myTime);
+// }, 4000);
+
+try {
+  let a = 12;
+  let b = 2;
+
+  let c = a / b;
+  console.log(c);
+  if (b === 0) {
+    throw new Error("Custom Error"); // custom error
+  }
+} catch (error) {
+  console.log("Error aayo: ", error);
+} finally {
+  console.log("I am from finally");
+}
