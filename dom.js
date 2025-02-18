@@ -52,3 +52,14 @@ try {
 } finally {
   console.log("I am from finally");
 }
+
+const obj = {
+  name: "jhone deo",
+  age: 23,
+  phone: "90887364647",
+};
+
+// const jjs = JSON.stringify(obj); // object => JSON
+const jjs = JSON.parse(obj); // JSON => object
+
+console.log(jjs, ":JSON");

@@ -1,12 +1,9 @@
-try {
-  let a = 12;
-  let b = 0;
+const obj = {
+  name: "jhone deo",
+  age: 23,
+  phone: "90887364647",
+};
 
-  let c = a / b;
-  console.log(c);
-  if (b === 0) {
-    throw new Error("Custom Error");
-  }
-} catch (error) {
-  console.log("Error aayo: ", error);
-}
+const jjs = JSON.stringify(obj);
+
+console.log(jjs, ":JSON");
